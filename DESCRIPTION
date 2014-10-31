@@ -1,0 +1,10 @@
+Package: f24.R2.cycling
+Type: Package
+Title: Statistical test of rhythmicity
+Version: 1.0
+Date: 2013-10-16
+Author: Jingkui Wang
+Maintainer: Jingkui Wang <jingkui.wang@epfl.ch>
+Description: More about what it does (maybe more than one line)
+License: GPL-2
+Packaged: 2013-10-16 16:45:50 UTC; jiwang
