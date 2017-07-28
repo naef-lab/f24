@@ -1,3 +1,11 @@
+#' Test a time series for rhythmicity by harmonic regression method
+#'
+#' @param x Vector of numerics to test rhythmicity
+#' @param t Vector of time (in hours)
+#' @param period Period of oscillations to test
+#' @param offset Phase offset (if needed)
+#' @return Number of timepoints, mean, amplitude (max-min), relative amplitude, phase, and p-value of rhythmicity
+#' 
 f24_R2_cycling=function(x, t=2*(0:(length(x)-1)), period=24, offset=0)
 {
 	
