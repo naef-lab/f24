@@ -3,6 +3,7 @@
 Example
 
 ```
+library(f24.R2.cycling)
 tvec <- seq(0, 48, 2)
 jphase <- 6
 jmean <- 10
