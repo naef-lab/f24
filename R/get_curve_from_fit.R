@@ -7,6 +7,6 @@
 #' 
 get_curve_from_fit <- function(fit.x, tvec, period = 24){
   jomega <- 2 * pi / period
-  y <- fit.x[["mean"]] + cos(jomega * (tvec - fit.x[["phase"]]))
+  y <- fit.x[["mean"]] + (fit.x[["amp"]] / 2) * cos(jomega * (tvec - fit.x[["phase"]]))
   return(y)
 }
